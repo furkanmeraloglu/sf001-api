@@ -4,8 +4,72 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3fadf0662881d91db9d5194ece395824",
+    "content-hash": "7cc8b0cf86ad73eeadd6d728a34f1b7b",
     "packages": [
+        {
+            "name": "arondeparon/laravel-request-sanitizer",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ArondeParon/laravel-request-sanitizer.git",
+                "reference": "5fd928fdfa72f16d484712028701fc508078ee16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ArondeParon/laravel-request-sanitizer/zipball/5fd928fdfa72f16d484712028701fc508078ee16",
+                "reference": "5fd928fdfa72f16d484712028701fc508078ee16",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "^7.0|^8.0",
+                "php": "^7.3|^8.0",
+                "symfony/http-foundation": "^4.3.4|>=5.1.3"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.4",
+                "orchestra/testbench": "^5.0|^6.0",
+                "phpunit/phpunit": "^8.0 || ^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ArondeParon\\RequestSanitizer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aron Rotteveel",
+                    "email": "hi@aron.codes",
+                    "homepage": "https://github.com/arondeparon",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An easy to use request sanitizer that allows you to sanitize your form data before validating it.",
+            "homepage": "https://github.com/arondeparon/laravel-request-sanitizer",
+            "keywords": [
+                "arondeparon",
+                "form",
+                "laravel",
+                "request",
+                "sanitizer",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/ArondeParon/laravel-request-sanitizer/issues",
+                "source": "https://github.com/ArondeParon/laravel-request-sanitizer/tree/4.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/arondeparon",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-12-15T16:55:08+00:00"
+        },
         {
             "name": "asm89/stack-cors",
             "version": "v2.0.3",
