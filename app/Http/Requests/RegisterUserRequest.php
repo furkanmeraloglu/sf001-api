@@ -4,7 +4,6 @@ namespace App\Http\Requests;
 
 use ArondeParon\RequestSanitizer\Sanitizers\FilterVars;
 use ArondeParon\RequestSanitizer\Sanitizers\Lowercase;
-use ArondeParon\RequestSanitizer\Sanitizers\RemoveNumeric;
 use ArondeParon\RequestSanitizer\Sanitizers\Trim;
 use ArondeParon\RequestSanitizer\Traits\SanitizesInputs;
 use Illuminate\Foundation\Http\FormRequest;
