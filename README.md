@@ -115,7 +115,7 @@ Example: `"YOUR_LOCALHOST_URL"/auth/logout`
 ### User Information
 		GET					/auth/user-profile
 
-Example: `"YOUR_LOCALHOST_URL"/auth/user-profiel`
+Example: `"YOUR_LOCALHOST_URL"/auth/user-profile`
 
 ```json
 {
